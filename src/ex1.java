@@ -23,6 +23,9 @@ public class ex1 {
 		System.out.println("changes 1");
 		System.out.println("changes 2");
 		System.out.println("changes 915");
+		System.out.println("changes 915");
+		System.out.println("changes 915");
+		System.out.println("changes 915");
 	}
 
 }
