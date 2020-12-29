@@ -20,12 +20,10 @@ public class ex1 {
 		
 		//QUESTION2:
 		System.out.println(dv.findElements(By.cssSelector("[type='checkBox']")).size());
-		System.out.println("changes 1");
-		System.out.println("changes 2");
-		System.out.println("changes 915");
-		System.out.println("changes 915");
-		System.out.println("changes 915");
-		System.out.println("changes 915");
+
+		
+		System.out.println("changes mastercode");
+
 	}
 
 }
