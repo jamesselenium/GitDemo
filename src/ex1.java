@@ -22,7 +22,7 @@ public class ex1 {
 		System.out.println(dv.findElements(By.cssSelector("[type='checkBox']")).size());
 		System.out.println("changes 1");
 		System.out.println("changes 2");
-		System.out.println("changes 3");
+		System.out.println("changes 915");
 	}
 
 }
