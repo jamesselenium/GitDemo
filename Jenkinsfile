@@ -10,11 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh '''
-            # Print Chrome version
-            # google-chrome --version
-            # Launch Robot Tests with Chrome
-            robot --pythonpath libraries --variablefile configurations/remote_kazan_chrome.py --variable ENV:${ENV} -d results/chrome --log log_chrome.html --output output_chrome.xml --report report_chrome.html cases/JTI/Socle_Examples
-            #robot --pythonpath libraries -t "Simulate UIDs generation For Manual Test" --variablefile configurations/remote_kazan_chrome.py --variable ENV:${ENV} -d results/chrome --log log_chrome.html --output output_chrome.xml --report report_chrome.html cases/JTI/Socle_Examples
+          robot outputPath: '.', logFileName: 'log.html', outputFileName: 'output.xml', reportFileName: 'report.hml', passThreshold: 100, unstableThreshold: 75.0
             '''
                 echo 'Testing..'
             }
